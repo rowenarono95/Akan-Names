@@ -4,6 +4,6 @@
 }
 
 body{
-    background-color: rgb(255, 146, 127);
-    align-content: space-around;
+    background-image: url(./image/splash3.jpeg);
+    background-position: center;
 }
