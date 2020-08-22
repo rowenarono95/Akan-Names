@@ -4,13 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AKAN NAMES</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-</head>
-
-<body>
+    <link rel="stylesheet" href="styles.css">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
@@ -21,6 +15,12 @@
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
 
+    <title>AKAN NAMES</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+
+<body>
         <div class="container">
             <div class="row">
               <div class="col-sm">
@@ -58,10 +58,31 @@
                       <li>Friday: Afua</li>
                       <li>Saturday: Ama</li>
                   </ul>
-                
               </div>
             </div>
+            <div class="card-footer">
+                <p>Akan Names Generator</p>
+              </div>
+            </div>
+
+          <div class="container-fluid bg">
+            <div class="row justify-content-center">
+              <div class="col-xs-12 col-sm-6 col-mnd-3">
+                <div class="form-container">
+                  <div class="form-group">
+                    <form method="post" onsubmit="return false" class="form">
+                      <label for = "day">Date of birth</label>
+                      <input type="text" id="day" maxlength="2" placeholder="mm/dd/yyyy" required/>
+            
+                      <h2>Gender:</h2>  
+                      <input type= "radio" name="gender" id="gender" value="male" checked>Male
+                      <input type= "radio" name="gender" id="gender" value="female">Female <br><br>
+                      <button type="submit" class="btn btn btn-primary btn-block" onclick="akan()">Submit</button>
+                      <p id="outcome">Output</p>
+                    </form>
+                  
           </div>
+
 </body>
 
 </html>
