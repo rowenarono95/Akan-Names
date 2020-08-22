@@ -19,5 +19,31 @@ function dateOfBirth(){
       }
    }
  
+   switch(gendervalue){
+      case "male":
+         if(dayOfBirth==0){
+            alert("you were born on"+days[0]+"and your akan name is"+maleAkanNames[0]);
+         }
+         if(dayOfBirth==1){
+            alert("you were born on"+""+days[1]+"and your akan name is"+""+maleAkanNames[1]);
+         }
+         if(dayOfBirth==2){
+            alert("you were born on"+""+days[2]+"and your akan name is"+""+maleAkanNames[2]);
+         }
+         if(dayOfBirth==3){
+            alert("you were born on"+""+days[3]+"and your akan name is"+""+maleAkanNames[3]);
+         }
+         if(dayOfBirth==4){
+            alert("you were born on"+""+days[4]+"and your akan name is"+""+maleAkanNames[4]);
+         }
+         if(dayOfBirth==5){
+            alert("you were born on"+" "+days[5]+"and your akan name is"+""+maleAkanNames[5]);
+         }
+         if(dayOfBirth==6){
+            alert("you were born on"+""+days[6]+"and your akan name is"+""+maleAkanNames[6]);
+         }
+
+   
+   }
 
 }
