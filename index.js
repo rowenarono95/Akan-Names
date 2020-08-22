@@ -8,5 +8,16 @@ function dateOfBirth(){
    var birthDate = new Date(days);
    var dayOfBirth= birthDate.getDay();
    //get gender
-   var gender=document.getElementsByName("gender").value;
+   var genders=document.getElementsByName("gender");
+   var gendervalue;
+   for(var i = 0;i<=genders.length;i++){
+      if(genders[0].checked){
+         gendervalue="male";
+      }
+      if(genders[1].checked){
+         gendervalue="female";
+      }
+   }
+ 
+
 }
