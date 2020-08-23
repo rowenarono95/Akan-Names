@@ -22,48 +22,48 @@ function dateOfBirth(){
    switch(gendervalue){
       case "male":
          if(dayOfBirth==0){
-            alert("you were born on"+days[0]+"and your akan name is"+maleAkanNames[0]);
+            alert("You were born on"+days[0]+"and your akan name is"+""+maleAkanNames[0]);
          }
          if(dayOfBirth==1){
-            alert("you were born on"+""+days[1]+"and your akan name is"+""+maleAkanNames[1]);
+            alert("You were born on"+""+days[1]+"and your akan name is"+""+maleAkanNames[1]);
          }
          if(dayOfBirth==2){
-            alert("you were born on"+""+days[2]+"and your akan name is"+""+maleAkanNames[2]);
+            alert("You were born on"+""+days[2]+"and your akan name is"+""+maleAkanNames[2]);
          }
          if(dayOfBirth==3){
-            alert("you were born on"+""+days[3]+"and your akan name is"+""+maleAkanNames[3]);
+            alert("You were born on"+""+days[3]+"and your akan name is"+""+maleAkanNames[3]);
          }
          if(dayOfBirth==4){
-            alert("you were born on"+""+days[4]+"and your akan name is"+""+maleAkanNames[4]);
+            alert("You were born on"+""+days[4]+"and your akan name is"+""+maleAkanNames[4]);
          }
          if(dayOfBirth==5){
-            alert("you were born on"+" "+days[5]+"and your akan name is"+""+maleAkanNames[5]);
+            alert("You were born on"+" "+days[5]+"and your akan name is"+""+maleAkanNames[5]);
          }
          if(dayOfBirth==6){
-            alert("you were born on"+""+days[6]+"and your akan name is"+""+maleAkanNames[6]);
+            alert("You were born on"+""+days[6]+"and your akan name is"+""+maleAkanNames[6]);
          }
 
          case "female":
             if(dayOfBirth==0){
-               alert("you were born on"+""+days[0]+"and your akan name is"+""+femaleAkanNames[0]);
+               alert("You were born on"+""+days[0]+"and your akan name is"+""+femaleAkanNames[0]);
             }
             if(dayOfBirth==1){
-               alert("you were born on"+""+days[1]+"and your akan name is"+""+femaleAkanNames[1]);
+               alert("You were born on"+""+days[1]+"and your akan name is"+""+femaleAkanNames[1]);
             }
             if(dayOfBirth==2){
-               alert("you were born on"+""+days[2]+"and your akan name is"+""+femaleAkanNames[2]);
+               alert("You were born on"+""+days[2]+"and your akan name is"+""+femaleAkanNames[2]);
             }
             if(dayOfBirth==3){
-               alert("you were born on"+""+days[3]+"and your akan name is"+""+femaleAkanNames[3]);
+               alert("You were born on"+""+days[3]+"and your akan name is"+""+femaleAkanNames[3]);
             }
             if(dayOfBirth==4){
-               alert("you were born on"+""+days[4]+"and your akan name is"+""+femaleAkanNames[4]);
+               alert("You were born on"+""+days[4]+"and your akan name is"+""+femaleAkanNames[4]);
             }
             if(dayOfBirth==5){
-               alert("you were born on"+""+days[5]+"and your akan name is"+""+femaleAkanNames[5]);
+               alert("You were born on"+""+days[5]+"and your akan name is"+""+femaleAkanNames[5]);
             }
             if(dayOfBirth==6){
-               alert("you were born on"+""+days[6]+"and your akan name is"+""+femaleAkanNames[6]);
+               alert("You were born on"+""+days[6]+"and your akan name is"+""+femaleAkanNames[6]);
             }
    
    }
