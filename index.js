@@ -4,7 +4,7 @@ var femaleAkanNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
  
 
 function dateOfBirth(){
-   var days=document.getElementById("day").value;
+   var days = document.getElementById("day").value;
    var birthDate = new Date(days);
    var dayOfBirth= birthDate.getDay();
    //get gender
@@ -22,7 +22,7 @@ function dateOfBirth(){
    switch(gendervalue){
       case "male":
          if(dayOfBirth==0){
-            alert("You were born on"+days[0]+"and your akan name is"+""+maleAkanNames[0]);
+            alert("You were born on"+""+days[0]+"and your akan name is"+""+maleAkanNames[0]);
          }
          if(dayOfBirth==1){
             alert("You were born on"+""+days[1]+"and your akan name is"+""+maleAkanNames[1]);
