@@ -4,8 +4,8 @@ var femaleAkanNames = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
  
 
 function dateOfBirth(){
-   var days = document.getElementById("day").value;
-   var birthDate = new Date(days);
+   var dayOfWeek = document.getElementById("day").value;
+   var birthDate = new Date(dayOfWeek);
    var dayOfBirth= birthDate.getDay();
    //get gender
    var genders=document.getElementsByName("gender");
