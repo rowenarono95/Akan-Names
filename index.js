@@ -42,6 +42,7 @@ function dateOfBirth(){
          if(dayOfBirth==6){
             alert("You were born on"+""+days[6]+"and your akan name is"+""+maleAkanNames[6]);
          }
+         break;
 
          case "female":
             if(dayOfBirth==0){
