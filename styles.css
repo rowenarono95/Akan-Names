@@ -21,3 +21,9 @@ h1 {
   width: 100%;
 }
 
+.card-footer{
+  color: rgb(219, 20, 20);
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 2px 2px 5px black;
+}
