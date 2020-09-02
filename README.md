@@ -1,6 +1,4 @@
-# ![Portfolio]
-
-# Portfolio
+### Portfolio
 
 <table>
 <tr>
