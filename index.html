@@ -2,86 +2,86 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    
-    </head>
-  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
 <body>
-        <div class="container">
-            <div class="row">
-              <div class="col-4">
-                <h1>Learn about Akan Names</h1>
-                  <p>
-                    Akan people of Ghana frequently name their children after the day
-                    of the week they were born and the order in which they were born.
-                    These "day names" have further meanings concerning the soul and
-                    character of the person. Middle names have considerably more variety
-                    and can refer to their birth order, twin status, or an ancestor's
-                    middle name.
-                    This is a web application that takes a user's birthday and calculates
-                    the day of the week they were born and then depending on their gender
-                    it outputs their Akan Name.
-                  </p>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm">
+        <h1>Learn about Akan Names</h1>
+        <p>
+          Akan people of Ghana frequently name their children after the day
+          of the week they were born and the order in which they were born.
+          These "day names" have further meanings concerning the soul and
+          character of the person. Middle names have considerably more variety
+          and can refer to their birth order, twin status, or an ancestor's
+          middle name.
+          This is a web application that takes a user's birthday and calculates
+          the day of the week they were born and then depending on their gender
+          it outputs their Akan Name.
+        </p>
 
-              </div>
-              <div class="col-4">
-                <h1>Male Names</h1>
-                <ul>
-                    <li>Sunday: Kwasi</li>
-                    <li>Tuesday: Kwabena</li>
-                    <li>Tuesday: Kwabena</li>
-                    <li>Wednesday: Kwaku</li>
-                    <li>Thursday: Yaw</li>
-                    <li>Friday: Kofi</li>
-                    <li>Saturday: Kwame</li>
-                </ul>
-              </div>
-              <div class="col-4">
-                <h1>Female Names</h1>
-                <ul>
-                    <li>Sunday: Akosua</li>
-                    <li>Monday: Adwoa</li>
-                    <li>Tuesday: Abenaa</li>
-                    <li>Wednesday: Akua</li>
-                    <li>Thursday: Yaa</li>
-                    <li>Friday: Afua</li>
-                    <li>Saturday: Ama</li>
-                </ul>
-            </div>
-            </div>
-
-            <div class="card-footer">
-                <p>Akan Names Generator</p>
-              </div>
-            </div>
-            <br>
-
-          <div class="container-fluid bg">
-            <div class="row justify-content-center">
-              <div class="col-xs-12 col-sm-6 col-mnd-3">
-                <div class="form-container">
-                  <div class="form-group">
-                    <form method="post" onsubmit="return false" class="form">
-                      <label for = "day">Date of birth</label>
-                      <input type="text" id="day" placeholder="mm/dd/yyyy" required/>
-                      <br><br>
-            
-                      <h2>Gender:</h2>  
-                      <input type= "radio" name="gender" id="male" value="male" checked>Male
-                      <input type= "radio" name="gender" id="female" value="female">Female <br><br>
-                      <button type="submit" class="btn btn btn-primary btn-block" onclick="dateOfBirth()">Submit</button>
-                    </form>
-                    <p id="display"></p>
-                  
+      </div>
+      <div class="col-sm">
+        <h1>Male Names</h1>
+        <ul>
+          <li>Sunday: Kwasi</li>
+          <li>Tuesday: Kwabena</li>
+          <li>Tuesday: Kwabena</li>
+          <li>Wednesday: Kwaku</li>
+          <li>Thursday: Yaw</li>
+          <li>Friday: Kofi</li>
+          <li>Saturday: Kwame</li>
+        </ul>
+      </div>
+      <div class="col-sm">
+        <h1>Female Names</h1>
+        <ul>
+          <li>Sunday: Akosua</li>
+          <li>Monday: Adwoa</li>
+          <li>Tuesday: Abenaa</li>
+          <li>Wednesday: Akua</li>
+          <li>Thursday: Yaa</li>
+          <li>Friday: Afua</li>
+          <li>Saturday: Ama</li>
+        </ul>
+      </div>
+    </div>
+    <h2>Generate Akan Name</h2>
+    
+    <div class="container">
+      <form class="card p-3 mt-5 bg-light col-md-6 mx-auto">
+        <div class="form-group">
+          <div class="col-sm-12">
+            <label for="day">Date of birth</label>
+            <input type="text" class ="form-control" id="day" placeholder="mm/dd/yyyy" required/>
           </div>
-          <script src="index.js"></script>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-6">
+            <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gender" id="male" value="male" checked>Male
+          </div>
+          <div class="col-sm-6">
+            <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="gender" id="female" value="female">Female
+          </div>
+        </div>
+        <button type="submit" class="btn btn btn-primary btn-block" onclick="dateOfBirth()">Submit</button>
+      </form>
+      <p id="display"></p>
+    </div>
+    <script src="index.js"></script>
 </body>
 <footer>
-    <div class="container text-muted text-center py-3 mt-5">
-        <h5>Copyright &copy; 2020 <a href="https://github.com/rowenarono95"> Rowena Rono</a></h5>
-    </div>
+  <div class="container text-muted text-center py-3 mt-5">
+    <h5>Copyright &copy; 2020 <a href="https://github.com/rowenarono95"> Rowena Rono</a></h5>
+  </div>
 </footer>
+
 </html>
