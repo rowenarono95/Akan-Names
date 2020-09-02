@@ -2,11 +2,16 @@ var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "S
 var maleAkanNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleAkanNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
-
 function dateOfBirth() {
+   event.preventDefault();
    var dayOfWeek = document.getElementById("day").value;
    var birthDate = new Date(dayOfWeek);
    var dayOfBirth = birthDate.getDay();
+   //validate
+   re = /^(0[1-9]|1[0-2])\/(0[1-9]|1\d|2\d|3[01])\/(19|20)\d{2}$/;
+   if(dayOfWeek=="" || (!(dayOfWeek.match(re)))){
+      alert("Provide a Valid date")
+   }
    //get gender
    var genders = document.getElementsByName("gender");
    var gendervalue;
@@ -68,5 +73,4 @@ function dateOfBirth() {
          }
 
    }
-
 }

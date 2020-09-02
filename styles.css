@@ -3,8 +3,8 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 45px;
 }
+
 h1 {
   font-family: "Gugi", cursive;
   font-weight: bolder;
@@ -12,23 +12,33 @@ h1 {
   font-size: 45px;
   text-shadow: 2px 2px 5px black;
 }
+
 .page-footer {
   background-color: rgb(0, 0, 0, 0.8);
   width: 100%;
 }
 
-.card-footer{
+.card-footer {
   color: rgb(219, 20, 20);
   font-size: 48px;
   text-align: center;
   text-shadow: 2px 2px 5px black;
 }
-#display{
+
+#display {
   padding-top: 2rem;
+  text-align: center;
 }
-#display span{
-  color:red;
+h2{
+  font-family: "Gugi", cursive;
+  font-weight: bolder;
+  color: red;
+  font-size: 45px;
+  text-shadow: 2px 2px 5px black;
+  text-align: center;
+}
+
+#display span {
+  color: red;
   font-weight: bolder;
 }
-
-
